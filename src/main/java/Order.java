@@ -16,10 +16,10 @@ class Order {
     }
 
     private static String toProperString(String[] wordsSplitOrdered) {
-        String res = "";
+        StringBuilder res = new StringBuilder();
         for (String s :
                 wordsSplitOrdered) {
-            res+=s;
+            res.append(s);
         }
         return res.substring(0, res.length()-1);
     }
