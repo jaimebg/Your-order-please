@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 import static java.lang.Character.isDigit;
 
 class Order {
